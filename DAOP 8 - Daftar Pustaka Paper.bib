@@ -1,0 +1,189 @@
+@inproceedings{Mammo2015,
+abstract = {The processing of large volumes of RDF data require an efficient storage and query processing engine that can scale well with the volume of data. The initial attempts to address this issue focused on optimizing native RDF stores as well as conventional relational databases management systems. But as the volume of RDF data grew to exponential proportions, the limitations of these systems became apparent and researchers began to focus on using big data analysis tools, most notably Hadoop, to process RDF data. This paper presents a comparative analysis of performance of Presto (distributed SQL query engine) in processing big RDF data against Apache Hive. To evaluate the performance Presto for big RDF data processing, a map-reduce program and a compiler, based on Flex and Bison, were implemented. The map-reduce program loads RDF data into HDFS while the compiler translates SPARQL queries into a subset of SQL that Presto (and Hive) can understand.},
+author = {Mammo, Mulugeta and Bansal, Srividya K.},
+booktitle = {Proceedings - 2015 IEEE International Congress on Big Data, BigData Congress 2015},
+doi = {10.1109/BigDataCongress.2015.15},
+isbn = {9781467372787},
+keywords = {Big Data processing,Database Performance,Evaluation,Querying,Semantic Web data},
+month = {aug},
+pages = {33--40},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {{Distributed SPARQL over Big RDF Data: A Comparative Analysis Using Presto and MapReduce}},
+year = {2015}
+}
+@techreport{VanDerMaaten2008,
+abstract = {We present a new technique called "t-SNE" that visualizes high-dimensional data by giving each datapoint a location in a two or three-dimensional map. The technique is a variation of Stochastic Neighbor Embedding (Hinton and Roweis, 2002) that is much easier to optimize, and produces significantly better visualizations by reducing the tendency to crowd points together in the center of the map. t-SNE is better than existing techniques at creating a single map that reveals structure at many different scales. This is particularly important for high-dimensional data that lie on several different, but related, low-dimensional manifolds, such as images of objects from multiple classes seen from multiple viewpoints. For visualizing the structure of very large data sets, we show how t-SNE can use random walks on neighborhood graphs to allow the implicit structure of all of the data to influence the way in which a subset of the data is displayed. We illustrate the performance of t-SNE on a wide variety of data sets and compare it with many other non-parametric visualization techniques, including Sammon mapping, Isomap, and Locally Linear Embedding. The visualiza-tions produced by t-SNE are significantly better than those produced by the other techniques on almost all of the data sets.},
+author = {{Van Der Maaten}, Laurens and Hinton, Geoffrey},
+booktitle = {Journal of Machine Learning Research},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Van Der Maaten, Hinton - 2008 - Visualizing Data using t-SNE.pdf:pdf},
+keywords = {dimensionality reduction,embedding algorithms,manifold learning,multidimensional scaling,visualization},
+pages = {2579--2605},
+title = {{Visualizing Data using t-SNE}},
+volume = {9},
+year = {2008}
+}
+@misc{Hartono2020,
+author = {Hartono, Brilliant and Ainul, Khakim Muhammad and Rakhmawati, Nur Aini},
+doi = {10.5281/ZENODO.3839089},
+title = {{Analisis Data Kereta Api dan Stasiun pada Daerah Operasi VIII Surabaya}},
+url = {https://zenodo.org/record/3839089{\#}.XsdOm2gzbIU},
+year = {2020}
+}
+@article{Grover,
+abstract = {Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together , our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.},
+author = {Grover, Aditya and Leskovec, Jure},
+doi = {10.1145/2939672.2939754},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Grover, Leskovec - Unknown - node2vec Scalable Feature Learning for Networks.pdf:pdf},
+isbn = {9781450342322},
+keywords = {Experimentation Keywords: Information networks, Fe,H28 [Database Manage-ment]: Database applications-,I26 [Artificial In-telligence]: Learning General T},
+title = {{node2vec: Scalable Feature Learning for Networks}},
+url = {http://dx.doi.org/10.1145/2939672.2939754}
+}
+@misc{WorldWideWebConsortium2013,
+author = {{World Wide Web Consortium}},
+booktitle = {World Wide Web Consortium},
+title = {{SPARQL 1.1 Overview}},
+url = {https://www.w3.org/TR/2013/REC-sparql11-overview-20130321/},
+urldate = {2020-05-06},
+year = {2013}
+}
+@article{Fadzilah2017,
+abstract = {Saat ini telah dikembangkan federated SPARQL query engine yang mempunyai kemampuan untuk melakukan query dari beberapa SPARQL endpoint yang terdistribusi, sehingga data yang berasal berbagai sumber memungkinkan untuk diperoleh. Ketika dijalankan untuk melakukan query, masing-masing query engine mempunyai kinerja yang berbeda-beda. Salah satu faktor yang berpengaruh terhadap kinerja dari query engine adalah karakteristik dari dataset RDF yang diakses, seperti jumlah triple, kelas, property, subjek, entity, objek, dan spreading factor dataset. Tugas Akhir ini dilakukan untuk mengidentifikasi karakteristik dataset RDF serta mengetahui karakteristik dataset yang berpengaruh terhadap kinerja dari query engine. Penelitian dilakukan dengan mengidentifikasi 10 dataset yang diambil dari jurnal penelitian lain. Sedangkan uji coba untuk mengetahui keterkaitan antara karakteristik dataset dengan kinerja dari query engine dilakukan menggunakan federated SPARQL query engine FedX. Dari hasil analisis, diketahui bahwa jumlah triple dan jumlah kelas yang terkait dengan query cenderung berpengaruh terhadap kinerja dari query engine. Sedangkan jumlah property yang terkait dengan dataset, spreading factor dataset, dan spreading factor dataset yang terkait dengan query cenderung tidak berpengaruh terhadap kinerja dari query engine.
+======================================================================================================================== Federated SPARQL query engines that are able to query from multiple distributed SPARQL endpoints have been developed, so that data from multiple sources are possible to obtain. When it is used to execute a query, a query engine usually has different performance compared to the others. One of the factors that affect the performance of the query engine is the characteristic of the accessed RDF dataset, such as the number of triples, the number of classes, the number of properties, the number of subjects, the number of entities, the number of objects, and the spreading factor of dataset. This final project is done to identify the characteristic of RDF dataset and to know dataset characteristic which is able influence the performance of query engine. The study was conducted by identifying 10 datasets taken from other research journals. The test to determine the relationship between dataset characteristics and the performance of the query engine is done using federated SPARQL query engine FedX. From the analysis results, it is known that the number of triples and the number of classes associated with the query tend to affect the performance of the query engine. Meanwhile, the number of properties associated with the query, spreading factor of dataset, and spreading factor of dataset associated with the query tend not to have an effect on performance of query engine.},
+author = {Fadzilah, Lutfi Nur},
+keywords = {T Technology (General),ZA4450 Databases},
+month = {jul},
+title = {{Identifikasi Karakteristik Dataset untuk Federated SPARQL Query}},
+year = {2017}
+}
+@inproceedings{Zhang2017,
+abstract = {Social network theory is becoming more and more significant in social science, and the centrality measure is underlying this burgeoning theory. In perspective of social network, individuals, organizations, companies etc. are like nodes in the network, and centrality is used to measure these nodes' power, activity, communication convenience and so on. Meanwhile, degree centrality, betweenness centrality and closeness centrality are the popular detailed measurements. This paper presents these 3 centrality in-depth, from principle to algorithm, and prospect good in the future use.},
+author = {Zhang, Junlong and Luo, Yu},
+doi = {10.2991/msam-17.2017.68},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Zhang, Luo - 2017 - Degree Centrality, Betweenness Centrality, and Closeness Centrality in Social Network.pdf:pdf},
+keywords = {betweenness centrality,centrality,closeness centrality,degree centrality,social network},
+month = {mar},
+pages = {300--303},
+publisher = {Atlantis Press},
+title = {{Degree Centrality, Betweenness Centrality, and Closeness Centrality in Social Network}},
+year = {2017}
+}
+@techreport{Yuvita,
+abstract = {ABSTRAK Graf memiliki banyak sekali implementasi yang dapat digunakan dalam kehidupan sehari-hari, misalnya dalam distribusi jaringan listrik, distribusi jaringan telepon, struktur jaringan internet, dan lain-lain. Akan tetapi, makalah ini hanya akan membahas implementasi graf dalam jaringan internet. Internet adalah jaringan global komputer dunia yang besar dan luas, di mana setiap komputer saling terhubung satu sama lain, baik yang berada di negara atau kota atau tempat yang sama ataupun tidak, yang berisi berbagai macam informasi. Informasi yang dibawa internet dapat berupa teks, audio, gambar, video, dan lain-lain. Pada jaringan internet, sebuah halaman situs direpresentasikan sebagai sebuah simpul, sedangkan hipertaut akan direpresentasikan sebagai sisi. Seperti halnya simpul-simpul yang dihubungkan dengan sisi, halaman-halaman situs membutuhkan hipertaut untuk menghubungkannya dengan halaman situs lainnya. Tidak semua halaman situs dapat diakses dari suatu halaman situs lainnya. Hubungan-hubungan inilah yang akan membentuk jaringan raksasa yang biasa disebut jaringan internet. Dalam makalah ini akan dijelaskan dasar-dasar dari jaringan internet dan teori graf sehingga dapat terlihat hubungan erat antara teori graf dengan jaringan internet dan implementasi teori graf dalam jaringan internet.},
+author = {Yuvita, Selly},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Yuvita - Unknown - APLIKASI GRAF DALAM JARINGAN INTERNET.pdf:pdf},
+keywords = {Kata kunci : graf,internet,jaringan},
+title = {{APLIKASI GRAF DALAM JARINGAN INTERNET}},
+url = {https://informatika.stei.itb.ac.id/{~}rinaldi.munir/Matdis/2009-2010/Makalah0910/MakalahStrukdis0910-011.pdf}
+}
+@misc{Neo4J,
+author = {Neo4J},
+booktitle = {Neo4J},
+title = {{The Betweenness Centrality algorithm}},
+url = {https://neo4j.com/docs/graph-algorithms/current/labs-algorithms/betweenness-centrality/},
+urldate = {2020-05-21}
+}
+@article{Bavelas1948,
+author = {Bavelas, Alex},
+doi = {https://doi.org/10.17730/humo.7.3.f4033344851gl053},
+journal = {Applied Anthropology},
+number = {3},
+pages = {16--30},
+title = {{A MATHEMATICAL MODEL FOR GROUP STRUCTURES}},
+volume = {7},
+year = {1948}
+}
+@techreport{Curtis2009,
+author = {Curtis, Carey and Scheurer, Jan},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Curtis, Scheurer - 2009 - Network City Activity Centres Developing an analysis, conception and communication tool for integrated land us.pdf:pdf},
+title = {{Network City Activity Centres Developing an analysis, conception and communication tool for integrated land use and transport planning in the Perth metropolitan area}},
+url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.184.8321{\&}rep=rep1{\&}type=pdf},
+year = {2009}
+}
+@article{Derudder2014,
+abstract = {This map summarizes information on the connectivity of 67 important South Asian cities concerning infrastructure networks. The map combines four information layers to reveal a city's overall stature in the region's infrastructure networks, i.e. rail, road, air, and information technology networks. Three dimensions of connectivity are shown: edge thickness reflecting tie strength between pairs of cities; node size reflecting a city's betweenness centrality; and node color reflecting the dominant geographical orientation of a city's connections. A threshold is used for the edges to ensure the map does not appear clogged. The map shows that major connections tend to be within-country linkages between large cities. There are five communities in South Asia's urban infrastructure networks, which largely follow national borders. Delhi, Mumbai, Lahore, Karachi, Chennai, Colombo and Dhaka are shown to be important nodes for the infrastructural integration of South Asia, as these cities mediate flows between relatively unconnected communities and cities. {\textcopyright} 2013 Ben Derudder.},
+author = {Derudder, Ben and Liu, Xingjian and Kunaka, Charles and Roberts, Mark},
+doi = {10.1080/17445647.2013.858084},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Derudder et al. - 2014 - The connectivity of South Asian cities in infrastructure networks.pdf:pdf},
+issn = {17445647},
+journal = {Journal of Maps},
+keywords = {air transport,betweenness centrality,communities,information technology,rail,road},
+month = {jan},
+number = {1},
+pages = {47--52},
+publisher = {Taylor {\&} Francis},
+title = {{The connectivity of South Asian cities in infrastructure networks}},
+url = {https://www.tandfonline.com/doi/full/10.1080/17445647.2013.858084},
+volume = {10},
+year = {2014}
+}
+@techreport{Narayanan2005,
+author = {Narayanan, Shivaram and Vullikanti, Anil},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Narayanan, Vullikanti - 2005 - The Betweenness Centrality Of Biological Networks.pdf:pdf},
+keywords = {Betweenness centrality,Biological networks,Edge Betweenness,Power law,Vertex Betweenness},
+title = {{The Betweenness Centrality Of Biological Networks}},
+url = {http://hdl.handle.net/10919/35405},
+year = {2005}
+}
+@article{Leydesdorff2007,
+abstract = {In addition to science citation indicators of journals like impact and immediacy, social network analysis provides a set of centrality measures like degree, betweenness, and closeness centrality. These measures are first analyzed for the entire set of 7,379 journals included in the Journal Citation Reports of the Science Citation Index and the Social Sciences Citation Index 2004 (Thomson ISI, Philadelphia, PA), and then also in relation to local citation environments that can be considered as proxies of specialties and disciplines. Betweenness centrality is shown to be an indicator of the interdisciplinarity of journals, but only in local citation environments and after normalization; otherwise, the influence of degree centrality (size) overshadows the betweenness-centrality measure. The indicator is applied to a variety of citation environments, including policy-relevant ones like biotechnology and nanotechnology. The values of the indicator remain sensitive to the delineations of the set because of the indicator's local character. Maps showing interdisciplinarity of journals in terms of betweenness centrality can be drawn using information about journal citation environments, which is available online.},
+author = {Leydesdorff, Loet},
+doi = {10.1002/asi.20614},
+issn = {15322882},
+journal = {Journal of the American Society for Information Science and Technology},
+month = {jul},
+number = {9},
+pages = {1303--1319},
+title = {{Betweenness centrality as an indicator of the interdisciplinary of scientific journals}},
+url = {http://doi.wiley.com/10.1002/asi.20614},
+volume = {58},
+year = {2007}
+}
+@article{Kourtellis2013,
+abstract = {This paper proposes an alternative way to identify nodes with high betweenness centrality. It introduces a new metric, $\kappa$-path centrality, and a randomized algorithm for estimating it, and shows empirically that nodes with high $\kappa$-path centrality have high node betweenness centrality. The randomized algorithm runs in time O($\kappa$3n2−2$\alpha$log n) and outputs, for each vertex v, an estimate of its $\kappa$-path centrality up to additive error of ±n1/2+$\alpha$ with probability 1 − 1/n2. Experimental evaluations on real and synthetic social networks show improved accuracy in detecting high betweenness centrality nodes and significantly reduced execution time when compared with existing randomized algorithms.},
+archivePrefix = {arXiv},
+arxivId = {1702.06087},
+author = {Kourtellis, Nicolas and Alahakoon, Tharaka and Simha, Ramanuja and Iamnitchi, Adriana and Tripathi, Rahul},
+doi = {10.1007/s13278-012-0076-6},
+eprint = {1702.06087},
+issn = {18695469},
+journal = {Social Network Analysis and Mining},
+keywords = {Algorithms,Betweenness centrality,Experimental evaluation,Social network analysis},
+month = {jan},
+number = {4},
+pages = {899--914},
+publisher = {Springer-Verlag Wien},
+title = {{Identifying high betweenness centrality nodes in large social networks}},
+url = {http://link.springer.com/10.1007/s13278-012-0076-6},
+volume = {3},
+year = {2013}
+}
+@article{Dwiatmoko2019,
+author = {Dwiatmoko, Hermanto},
+doi = {10.12962/j26151847.v3i2.5883},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Dwiatmoko - 2019 - Peran Infrastruktur Perkeretaapian bagi Pertumbuhan Ekonomi Wilayah.pdf:pdf},
+issn = {26151839},
+journal = {Jurnal Manajemen Aset Infrastruktur {\&} Fasilitas},
+month = {sep},
+number = {2},
+publisher = {Lembaga Penelitian dan Pengabdian kepada Masyarakat ITS},
+title = {{Peran Infrastruktur Perkeretaapian bagi Pertumbuhan Ekonomi Wilayah}},
+volume = {3},
+year = {2019}
+}
+@techreport{Lathiif2017,
+address = {Surabaya},
+author = {Lathiif, Muhammad Rohim},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lathiif - 2017 - THE ANALYSIS OF TRAIN OPERATIONAL PERFORMANCE FOR SURABAYA GUBENG-MALANG-BLITAR ROUTE COUNCELOR LECTURE.pdf:pdf},
+institution = {Institut Teknologi Sepuluh Nopember},
+title = {{ANALISA KINERJA OPERASIONAL KERETA API PENATARAN JURUSAN SURABAYA GUBENG – MALANG – BLITAR}},
+url = {http://repository.its.ac.id/3719/1/3113106049-Undergraduate{\_}These.pdf},
+year = {2017}
+}
+@book{DirektoratJenderalPerkeretaapianKementerianPerhubunganRepublikIndonesia2014,
+author = {{Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia}},
+file = {:C$\backslash$:/Users/bibri/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia - 2014 - BUKU JNFORMASI PERKERETAAPIAN TAHUN 2014.pdf:pdf},
+title = {{BUKU INFORMASI PERKERETAAPIAN TAHUN 2014}},
+url = {http://ppid.dephub.go.id/files/dataka/BI{\_}Final{\_}RevMei.pdf},
+year = {2014}
+}
